@@ -2,10 +2,12 @@
 # 07211940000073
 
 Gambaran Sistem
-https://github.com/AgungHari/Pengembangan-Kursi-Roda-Otonom-Berbasis-Yolov8-untuk-Penghindaran-Obstacle/assets/169495092/f7026284-ba42-43db-be6f-dad5f24d8afa
+align="center">
+  <img src="[https://github.com/AgungHari/Pengembangan-Kursi-Roda-Otonom-Berbasis-Yolov8-untuk-Penghindaran-Obstacle/assets/169495092/5356efed-6fee-4ab9-80a8-9e0e866b007a]">
+</p>
 
 Hasil Sementara
--null
+-
 
 Venv Setup
 - pip install ultralytics
