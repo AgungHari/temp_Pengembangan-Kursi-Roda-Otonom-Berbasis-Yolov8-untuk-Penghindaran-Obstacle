@@ -1,5 +1,5 @@
 # Pengembangan Kursi Roda Otonom Berbasis Yolov8 untuk Penghindaran Obstacle
-# Agung Hari
+### Agung Hari / Teknik Komputer Institut Teknologi Sepuluh Nopember
 
 ## Gambaran Sistem
 <p align="center">
