@@ -1,4 +1,5 @@
 # Pengembangan Kursi Roda Otonom Berbasis Yolov8 untuk Penghindaran Obstacle
+### (Development of YOLOv8-based Autonomous Wheelchair for Obstacle Avoidance.)
 ### Agung Hari / Teknik Komputer Institut Teknologi Sepuluh Nopember
 
 ## Gambaran Sistem
