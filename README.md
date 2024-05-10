@@ -1,5 +1,5 @@
-# Tugas Akhir I Gst Ngr Agung Hari Vijaya Kusuma
-# 07211940000073
+# Pengembangan Kursi Roda Otonom Berbasis Yolov8 untuk Penghindaran Obstacle
+# Agung Hari
 
 ## Gambaran Sistem
 <p align="center">
