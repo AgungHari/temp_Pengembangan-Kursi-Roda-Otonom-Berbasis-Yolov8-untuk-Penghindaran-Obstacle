@@ -1,0 +1,55 @@
+\chapter{PENDAHULUAN}
+\label{chap:pendahuluan}
+
+% Ubah bagian-bagian berikut dengan isi dari pendahuluan
+
+
+
+\section{Latar Belakang}
+\label{sec:latarbelakang}
+
+Lumpuh, sebagaimana didefinisikan oleh Kamus Besar Bahasa Indonesia, adalah keadaan di mana fungsi anggota badan melemah sehingga tidak bertenaga atau tidak dapat digerakkan lagi sebagaimana mestinya \parencite{Daring_2016}. Otot, tulang, saraf, dan jaringan penghubung antara ketiganya memiliki peran yang krusial dalam mengendalikan gerak tubuh manusia. Gangguan pada salah satu dari komponen ini bisa menyebabkan kelumpuhan, baik yang bersifat sementara maupun permanen.
+
+Beberapa penyakit dan kondisi dapat memicu kelumpuhan, termasuk stroke yang menyebabkan kelumpuhan pada bagian wajah, lengan, dan kaki sebelah, \emph{Bell's Palsy} yang menyebabkan kelumpuhan pada satu sisi wajah tanpa melibatkan anggota tubuh lainnya, trauma kepala yang menyebabkan kelumpuhan pada area tubuh yang sesuai dengan kerusakan otak, serta polio yang menyerang lengan, kaki, dan otot pernapasan, di antara banyak kondisi lain yang dapat memicu kelumpuhan \parencite{Pansawira_2022}.
+
+Individu yang mengalami kelumpuhan sering kali menghadapi tantangan mobilitas dalam kehidupan sehari-hari. Mereka umumnya membutuhkan alat bantu, seperti kursi roda, untuk beraktivitas. Saat ini, kursi roda elektrik yang dioperasikan dengan \emph{joystick} telah tersedia, namun alat ini sering kali tidak memadai untuk orang yang mengalami kelumpuhan lengan \parencite{choi2019motion}.
+
+Pengembangan kursi roda otonom menjadi langkah vital untuk meningkatkan kemandirian dan kualitas hidup individu dengan keterbatasan mobilitas. Dengan perkembangan teknologi sensor dan pemrosesan gambar, aplikasi metode deteksi objek seperti YOLO (You Only Look Once) menjadi inti dari inovasi solusi mobilitas otonom. Penelitian oleh Lecrosnier mengenai aplikasi YOLOv3 dalam pengembangan kursi roda otonom untuk menghindari pintu menunjukkan keberhasilan metode ini dalam memperbaiki navigasi dan keamanan pengguna \parencite{lecrosnier2021deep}.
+
+YOLOv8, dengan kemampuan deteksi objek yang ditingkatkan dan akurasi yang tinggi dalam real-time, menawarkan kemungkinan besar untuk pengembangan lebih lanjut dalam kursi roda otonom. Oleh karena itu, penelitian dengan judul "Pengembangan Kursi Roda Otonom Berbasis YOLOv8 untuk Penghindaran Obstacle" diharapkan bisa mengurangi risiko kecelakaan yang berhubungan dengan kursi roda, memberikan solusi efektif untuk navigasi dan keamanan.
+
+
+\section{Permasalahan}
+\label{sec:permasalahan}
+
+Berdasarkan latar belakang yang telah dipaparan, agar kursi roda otonom dapat menghindari obstacle, maka diperlukan suatu sistem yang dapat mendeteksi manusia.
+
+\section{Tujuan}
+\label{sec:Tujuan}
+
+Tujuan dari Tugas Akhir ini ialah untuk mengembangkan sistem yang dapat mendeteksi manusia pada kursi roda otonom untuk menghindari Obstacle.
+
+\section{Batasan Masalah atau Ruang Lingkup}
+
+Terdapat beberapa Batasan masalah untuk memperjelas penelitian yang dilakukan. Batasan batasannya adalah sebagai berikut :
+
+\begin{enumerate}[nolistsep]
+
+  \item Penelitian ini terbatas pada pengembangan system deteksi dan kendali untuk kursi roda berbasis computer vision dengan focus pada mendeteksi keberadaan manusia di sekitarnya.
+
+  \item System yang dikembangkan akan menggunakan deteksi objek YOLOv8 (You Only Look Once) untuk mendeteksi manusia dalam gambar.
+
+  \item Pengontrol kursi roda akan diimplementasikan untuk memberikan respon berbelok secara otomatis Ketika mendeteksi keberadaan manusia yang diam di dekatnya.
+  
+  \item Penelitian ini tidak mencakup pengembangan perangkat keras kendali kursi roda, melainkan hanya focus pada pengembangan algoritma perangkat lunak untuk pengendalian otomatis.
+  
+  \item Mediapipe tidak dilakukan \emph{training} namun, digunakan untuk pengambilan landmark pada tubuh manusia.
+
+  \item Evaluasi kinerja system akan dilakukan melalui pengujian yang menggunakan dataset gambar yang telah dilabeli dengan benar, dengan focus pada metrik precision, recall, dan mean average precision (mAP)
+
+\end{enumerate}
+
+\section{Manfaat}
+
+% Ubah paragraf berikut sesuai dengan tujuan penelitian dari tugas akhir
+Manfaat pada penelitian ini untuk membuat sistem yang dapat mendeteksi manusia untuk mengontrol gerak dari kursi roda.
