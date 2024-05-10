@@ -15,4 +15,3 @@ Venv Setup
 - pip install ultralytics
 - pip install mediapipe
 
-malu bertanya sesat dijalan hubungi agung 081239327802
